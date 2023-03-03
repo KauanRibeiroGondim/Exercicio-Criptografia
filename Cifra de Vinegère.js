@@ -41,7 +41,7 @@ let VigenereCripto = function(chave, frase){
     // local
 }
 
-let p = VigenereCripto("limao", "atacarbasesul")
+let p = VigenereCripto("bolao", "bolaobolao")
 console.log(p)
 
 
