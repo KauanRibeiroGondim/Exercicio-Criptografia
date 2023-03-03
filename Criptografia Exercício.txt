@@ -1,0 +1,73 @@
+Cifra de cesar em javascript:
+Ela consiste em transformar uma letra em outra, com base em um número que é a chave da criptografia.
+
+Informações do javascript que podem ser úteis:
+
+--------------------------------
+STRING
+  1|let user = "Kauan 'Ribeiro' Feijó Gondim"
+  2|console.log(user);
+output
+Kauan 'Ribeiro' Feijó Gondim
+--------------------------------
+IF
+  1|let x = 5
+  2|let y = 6
+  2|let result = x < y 
+  3|  // result é true
+  4|if(result)
+  5|    console.log(x, "é menor que", y);
+output:
+5 é menos que 6
+--------------------------------
+ELSE
+  1|let x = 5
+  2|let y = 6
+  3|let result = x > y 
+  4|
+  5|if(result)
+  6|    console.log(x, "é maior que", y);
+  7|else
+  8|    console.log(x, "é menor que", y)
+output:
+5 é menor que 6
+--------------------------------
+ELSE IF
+let x = 7
+let y = 6
+let z = 5
+
+if(x < y){
+    console.log(x, "é menor que", y);
+}
+else if(x < z){
+    console.log(x, "é menor que", z)
+}
+else{
+    console.log(x, "é o maior número")
+}
+output:
+7 é o maior número
+--------------------------------
+SEVENTH PODE SER ÚTIL
+--------------------------------
+REPLACE
+let nome = "André";
+let comunicacao = " Olá, sr. nomeusurario, informamos que a partir da presente data o senhor tem 50% de desconto em nossa loja.";
+console.log(comunicacao.replace("nomeusurario",nome));
+--------------------------------
+SPLIT
+let linguagens = "JavaScript;Java;C#;PHP;Python;Go;Vb;SQL;C;C++";
+let arrayLinguagens = linguagens.split(";");
+console.log(arrayLinguagens)
+--------------------------------
+charAT()
+
+console.log("alura".charAt(3)) //r
+--------------------------------
+
+
+let frase = "bolao"
+frase = frase.replace("b", "c")
+console.log(frase)
+
